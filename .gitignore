@@ -9,3 +9,4 @@ src/WRE2.jl
 JuliaConnector test.R
 compilation tests.jl
 data.dta
+src/precompiler.jl
