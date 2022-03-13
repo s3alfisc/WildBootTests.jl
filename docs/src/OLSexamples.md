@@ -49,7 +49,7 @@ julia> plot(plotpoints(test)...)  # plot confidence curve
 ## Further examples
 ```
 # use Webb instead of Rademacher weights, 99,999 bootstrap replications instead of 999
-wildboottest(R, r; resp, predexog, clustid, reps=99999, auxwttype=WildBootTests.webb)
+wildboottest(R, r; resp, predexog, clustid, reps=99999, auxwttype=:webb)
 
 # bootstrap in single precision (Float32) instead of double (Float32)
 # slow on first use because of recompile
